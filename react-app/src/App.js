@@ -1,9 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Todo from "./components/Todo";
+// import Modal from "./components/Modal";
+// import Backdrop from "./components/Backdrop";
 function App() {
   return (
-    <div className="App">
+    <div>
+      <h1>TO DO</h1>
+      <Todo text='first block' />
+      <Todo text='two'></Todo>
+      <Todo text='data'></Todo>
+      {/* <Modal></Modal>
+      <Backdrop></Backdrop> */}
     </div>
   );
 }
